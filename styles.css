@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body {
+  background-color: #fff;
+
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100hv;
+  background: #222;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #fff;
+  margin: 60px 30px;
+}
+.external-class {
+  justify-content: center;
+  text-align: center;
+  
+  margin: 20px;
+}
+.mainclass {
+  justify-content: center;
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.profile-picture {
+  border-radius: 100%;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+#name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+#discription {
+  color: #bada55; /* You can use any color you prefer */
+  margin: 5px 0;
+}
+#developer {
+  font-style: italic;
+  margin: 10px 0 20px;
+  color: #ccc;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.social-button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.social-button:hover {
+  background-color: #555;
+}
